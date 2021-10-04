@@ -1,0 +1,15 @@
+.bg{
+    background-image: url(../../img/Cover-24-01-2020-Art-school-Dubai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    opacity: 80%;
+}
+.About{
+    font-size: 100px;
+    color: indianred;
+    font-weight: 700;
+}
+.about-us{
+    color: rgb(65, 63, 63);
+}

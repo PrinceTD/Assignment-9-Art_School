@@ -6,7 +6,16 @@
     margin: 100px;
 }
 .home{
-    padding:0 90px;
+    padding:5px 90px;
     border-radius: 20px;
-    color: indianred;
+    color: rgb(246, 246, 246);
+    background-color: chocolate;
+    border: none;
+}
+.home:hover{
+    padding:5px 90px;
+    border-radius: 20px;
+    color: rgb(214, 113, 30);
+    background-color: rgb(246, 204, 173);
+    border: none;
 }

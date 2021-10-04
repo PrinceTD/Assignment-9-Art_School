@@ -10,13 +10,36 @@ import Services from './componets/Services/Services';
 import Title from './componets/Title/Title';
 import NotFound from './componets/NotFound/NotFound';
 import Footer from './componets/Footer/Footer';
+import HomeData from './componets/HomeData/HomeData';
 
 function App() {
   return (
 
-     <div>
-     <About></About>
-     </div>
+    <div>
+
+    <Router>
+      <Header></Header>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+        <Route path='/home'>
+          <Home></Home>
+        </Route>
+        <Route path='/about'>
+          <About></About>
+        </Route>
+        <Route path='/service'>
+          <Services></Services>
+        </Route>
+        <Route path='*'>
+          <NotFound></NotFound>
+        </Route>
+      </Switch>
+      <Footer></Footer>
+    </Router>
+
+    </div>
   );
 }
 

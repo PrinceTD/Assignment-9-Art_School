@@ -4,7 +4,7 @@ import './NotFound.css'
 
 const NotFound = () => {
     return (
-        <div className="row  ">
+        <div className="row  mt-5 mb-5 pb-4">
             <div className='col-md-6  ms-auto'>
                 <h2 className='bg-img text-end'>404</h2>
             </div>
@@ -16,7 +16,9 @@ const NotFound = () => {
                 404 is a 'not found' error, please go to home page
                 </p>
                
-                <button className='home'>Home</button>
+               <Link to='/home'>
+               <button className='home'>Home</button>
+               </Link>
                
             </div>
         </div>

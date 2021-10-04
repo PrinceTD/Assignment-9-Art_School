@@ -13,6 +13,7 @@ const Service = (props) => {
                     <h5 className ="card-title">{name}</h5>
                     <hr />
                     <p className ="card-text">{title}</p>
+                    <p className='text-danger'>${price} </p>
                     </div>
                 </div>
             </div>

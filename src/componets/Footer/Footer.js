@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='row text-center bg-dark text-white'>
+        <div className='row text-center bg-dark text-white mt-5 pt-4'>
             <div className='col-md-4'>
                 <h3>
                     Location

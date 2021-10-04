@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from '../Header/Header';
+import HomeData from '../HomeData/HomeData';
 import Title from '../Title/Title';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Title></Title>
+           <Title></Title>
+           <HomeData></HomeData>
         </div>
     );
 };
