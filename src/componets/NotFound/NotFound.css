@@ -1,0 +1,12 @@
+.bg-img{
+    font-size: 250px;
+    color: rgb(197, 0, 0);
+}
+.notFound{
+    margin: 100px;
+}
+.home{
+    padding:0 90px;
+    border-radius: 20px;
+    color: indianred;
+}

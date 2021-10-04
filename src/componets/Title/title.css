@@ -1,0 +1,17 @@
+.img{
+    background-image: url(../../img/Untitled-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+.draw{
+    color: red;
+}
+.write{
+    color: rgb(73, 73, 73);
+   font-size: 80px;
+   font-weight: 700;
+}
+.text{
+    font-size: 20px
+}
