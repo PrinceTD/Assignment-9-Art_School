@@ -11,33 +11,38 @@ import Title from './componets/Title/Title';
 import NotFound from './componets/NotFound/NotFound';
 import Footer from './componets/Footer/Footer';
 import HomeData from './componets/HomeData/HomeData';
+import Teacher from './componets/Teacher/Teacher';
 
 function App() {
   return (
 
     <div>
 
-    <Router>
-      <Header></Header>
-      <Switch>
-        <Route exact path='/'>
-          <Home></Home>
-        </Route>
-        <Route path='/home'>
-          <Home></Home>
-        </Route>
-        <Route path='/about'>
-          <About></About>
-        </Route>
-        <Route path='/service'>
-          <Services></Services>
-        </Route>
-        <Route path='*'>
-          <NotFound></NotFound>
-        </Route>
-      </Switch>
-      <Footer></Footer>
-    </Router>
+      <Router>
+        <Header></Header>
+
+        <Switch>
+          <Route exact path='/'>
+            <Home></Home>
+          </Route>
+          <Route path='/home'>
+            <Home></Home>
+          </Route>
+          <Route path='/about'>
+            <About></About>
+          </Route>
+          <Route path='/service'>
+            <Services></Services>
+          </Route>
+          <Route path='/teacher'>
+            <Teacher></Teacher>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
 
     </div>
   );

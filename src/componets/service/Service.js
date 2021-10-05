@@ -6,7 +6,7 @@ const Service = (props) => {
 
         < div >
             <div className="col">
-                <div className="card">
+                <div className="card border-0 shadow">
                     <img src={img} alt="" height='250px' width='355px' />
                    
                     <div className ="card-body">
