@@ -5,8 +5,8 @@ import './About.css'
 const About = () => {
     return (
         <div className='text-center'>
-            <div className="bg">
-                <h1 className='About'>
+            <div className="">
+                <h1 className='About background'>
                     About us
                 </h1>
             </div>

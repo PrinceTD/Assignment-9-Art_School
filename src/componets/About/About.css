@@ -1,7 +1,4 @@
-.bg{
-    background-image: url(../../img/Cover-24-01-2020-Art-school-Dubai.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.background{
     padding: 150px;
     opacity: 80%;
 }
