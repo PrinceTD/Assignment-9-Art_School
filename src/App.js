@@ -12,6 +12,7 @@ import NotFound from './componets/NotFound/NotFound';
 import Footer from './componets/Footer/Footer';
 import HomeData from './componets/HomeData/HomeData';
 import Teacher from './componets/Teacher/Teacher';
+import Contact from './componets/Contact/Contact';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path='/teacher'>
             <Teacher></Teacher>
+          </Route>
+          <Route path='/contact'>
+            <Contact></Contact>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
